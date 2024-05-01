@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- meta/viewport relates to the way the screen looks on each device -->
+     <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <!-- style properties for what is descibed, you can add multiple of each part e.g table 1 and table 2 by assigning each an ID within the body and using th ID in the head--> 
+     <style>
+        table#t01 {
+          background-color:#f2f2d1
+        }
+        th,
+        td {
+            border: 1px solid black;
+             text-align:center;
+        }
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<!-- body style is where you can add style to the main webpage layout inc background colour --> 
+<body style= background-color:>
+<!-- This is the main title added with style/font change, align="center" = the specific alignment -->
+<h1 style="font-size: 40px;" align="center">Argento's Record Shop</h1>
+<!-- The abbr tag creates an abbreviation of the title -->
+<h2 align="center"><abbr title="Argento's"> ARG </abbr></h2>
+<!-- This is the image, alt tag creates a text display if the image cannot be shown, the anchor can turn the image into a link -->
+<p align="center"><a href="https://tm111.open.ac.uk/opensites/users/ag26937/argentosrecordshop1.htm"> <img src="skull-8149049_1280.jpg" width="303" height="303" alt="Rock and Roll image" /></a></p>
+<!-- the title attribute creates a title when the mouse is hovered over the element, span tag uses the attributes from the head and can be used within a text, you can add specific characters -->
+<h2 title="Hover effect" align="center">&spades; Home Page &spades;</h2>
+<p align="center">The home of rock and roll / metal.... the <span>greatest</span> of all time</p>
+<h3 align="center">Pre-owned records</h3>
+<p align="center">We have a huge selection of pre-owned vinly records from the 1960's to the 1990's <!-- the <br /> creates a new line within a paragraph --> <br />containing some really rare collections</p>
+<h3 align="center">Specialities</h3>
+<p align="center">We also off a variety of signed merchandise</p>
+<!-- table of prices using a border setting defined in the <head>, text-align also, otherwise the table 
+will have no border-->
+<table id="t01" style="width: 100%;"><!-- the caption tag within a table adds the caption above the table --><caption>Prices</caption>
+<tbody>
+<tr>
+<th>1 Signature</th>
+<th>2 Signatures</th>
+<th>3 Signatures</th>
+</tr>
+<tr>
+<td>&pound;100</td>
+<td>&pound;200</td>
+<td>&pound;300</td>
+</tr>
+</tbody>
+</table>
+<br>
+<!-- the div around the canvas is used for center align, the canvas is used to use javascript to draw within the canvas using script -->
+<div style = "text-align:center;">
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
+<script>
+
+</script>
+</div>
+
+<h4 align="center">Resources</h4>
+<!-- Below is an example of anchoring a link, the title attribute creates a title when the mouse is hovered over the element, target= _blank opens the target link in a new tab, the default is to use the same tab if the target is undisclosed-->
+<p align="center">This link shows an example of the music on offer <a href="https://www.youtube.com/watch?v=27NMF6u14DU" title="Official Music Video" target="_blank" rel="noopener"> Ratt Lay It Down</a></p>
+<!-- the address Tag creates an address for the doc owner --><address align="center">
+<p>Address:<br />710-B, Camden Business Park,<br />Sector-122, North Camden &ndash; 201305</p>
+</address><!-- hr creates a horizontal line break as shown below --><hr />
+<h4>References:</h4>
+<!-- pre formats the text in the same font and location as what is written in the editor, 
+the cite tag showcases different ways of representing quoted text and citations within a webpage-->
+<pre>skull-music-rocknroll-sticker-8149049, added by Pixabay, [Online]. Available at <cite style="color: blue;">https://pixabay.com/illustrations/skull-music-rocknroll-sticker-8149049/</cite></pre>
+<!-- pre formats the text in the same font and location as what is written in the editor, style/colour changes the colour -->
+<pre>Ratt Lay It Down (Official Music Video)(2021) Youtube Video, added by Rhino [Online]. Available at <cite style="color: blue;">https://www.youtube.com/watch?v=27NMF6u14DU</cite> (Accessed 17th April 2024)</pre>
+<p></p>
+</body>
+</html>
